@@ -6,7 +6,7 @@ if (isset($_POST['submit'])) {
     $type = $_POST['type'];
     $message = $_POST['message'];
 
-    $mailTo = "jaenellesimon@gmail.com";
+    $mailTo = "enquiries@jslanguages.net";
     $headers = "From: ".$mailFrom;
     $txt = "You have received an email from ".$name.".\n\n".$message;
 
